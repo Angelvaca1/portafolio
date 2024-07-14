@@ -1,0 +1,20 @@
+h1{
+    color: #e0065d;
+    background-color: aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px,2px,2px,#ced98c;
+}
+.caja{
+    padding: 15px;
+    margin: auto;
+    width: 50%;
+    background-color: aquamarine;
+    border-radius: 5px;
+    color: black;
+}
+.texto{
+    text-align: justify;
+    text-decoration: overline;
+    text-indent: 30pxS;
+}

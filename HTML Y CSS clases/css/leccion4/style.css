@@ -1,0 +1,12 @@
+body{
+    background-color: dodgerblue;
+    color: cornsilk;
+    background-image: url(img/enjer-mapache.jpg);
+    background-repeat: no-repeat;
+    background-position: left,top;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    height: 1000px;
+}

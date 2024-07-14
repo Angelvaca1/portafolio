@@ -1,0 +1,68 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>formulario</title>
+    </head>
+    <body>
+        <h1>formularios html </h1>
+        <form action="mi servidor" target="_blank">
+            <fieldset>
+                <legend>datos de formulario</legend>
+
+                <label for="idPersona">idPersona</label><br/>
+                <input type="text" id="idPersona" name="idPersona" readonly="true" value="100"> <br/>
+
+                <input type="hidden" id="sistema" name="sistema" value="SAP">
+
+            <label for="nombre">Nombre</label><br/>
+            <input type="text" id="nombre" name="nombre" placeholder="escribe tu nombre" required="true"/><br/>
+
+            <label for="apellido">apellido</label><br/>
+            <input type="text" id="apellido"name="apellido" placeholder="escribe tu apellido" required="true"/><br/>
+
+            <label for="password">password</label> <br/>
+            <input type="password" id="password" name="password" placeholder="escribe tu contraseña" required="true"/><br/>
+
+            <label for="email">email:</label><br/>
+            <input type="email" id="email" name="email" placeholder="escribe tu email" required="true"/><br/>
+
+            <label for="edad">edad</label><br/>
+            <input type="number" name="edad" placeholder="escribe tu edad" required="true"/><br/>
+
+            <label>Género</label><br/>
+            <input type="radio" id="femenino" name="Género" value="femenino"/>
+            <label for="femenino">femenino</label><br/>
+            <input type="radio" id="masculino" name="Género" value="masculino"/>
+            <label for="masculino">masculino</label><br/>
+
+            <label>Género musical</label><br/>
+            <input type="checkbox" id="clasica" name="musica" value="clasica">
+            <label for="clasica">clasica</label><br/>
+            <input type="checkbox" id="clasica" name="musica" value="jazz">
+            <label for="jazz">jazz</label><br/>
+            <input type="checkbox" id="clasica" name="musica" value="rock">
+            <label for="rock">rock</label><br/>
+
+            <label for="autos"marca de autos favorito></label><br/>
+            <select name="autos" id="autos">
+                <option value="volvo">volvo</option>
+                <option value="bmw">BMW</option>
+                <option value="audi">Audi</option>   
+            </select><br/>
+
+            <label for="comentario">comentario</label><br/>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="6">hola mundo ;3</textarea><br/>
+            <br/>
+            <input type="submit" value="enviar"/>
+            <input type="submit" formnovalidate="formnovalidate" value="enviar sin validar"/>
+            <input type="reset" value="restablecer"/>
+
+
+
+    </fieldset>
+    </form>
+    </body>
+    </html>

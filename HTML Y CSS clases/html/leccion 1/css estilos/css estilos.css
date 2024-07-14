@@ -1,0 +1,17 @@
+h1{
+   color: blue;
+}
+P{
+   color: white;
+   background-color: crimson;
+   padding: 9px;
+   border: 10px solid cornflowerblue;
+   margin: 40px 10px 20px 10px; 
+   /*----arriba, derecha, abajo, izquierda siempre este orden, codigo konami---*/
+   
+   /*margin-top: 40px;
+   margin-right: 10;
+   margin-bottom: 20px;
+   margin-right: 10px;*/
+
+}

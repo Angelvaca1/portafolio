@@ -1,0 +1,26 @@
+.titulo{
+    color: cadetblue;
+}
+
+.marco{
+    width: 100%;
+    height: 200px;
+    border: 1px solid #27d63f;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.boton{
+    background-color: antiquewhite;
+    border: 2px solid #2213af;
+    text-decoration: none;
+    display: inline-block;
+    padding:  10px;
+}
+
+.botton:hover{
+    background-color: #2213af;
+    
+}

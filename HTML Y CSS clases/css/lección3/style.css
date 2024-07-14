@@ -1,0 +1,32 @@
+*{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: #e63939;
+}
+div{
+    padding: 10px;
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    margin: 5px auto;
+    font-size: large;
+    float: left;
+}
+.rojo{
+    background-color: crimson;
+}
+.rosa{
+    background-color: hotpink;
+}
+.hex{
+    background-color: #0091ad;
+}
+.hex_trans{
+    background-color: #0091ad96;
+}
+.sat{
+    background-color: hsla(180, 100%, 50%, 0.644);
+}

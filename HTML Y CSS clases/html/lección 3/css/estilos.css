@@ -1,0 +1,15 @@
+ol{
+    list-style: none;
+    counter-reset: contador;
+}
+ol li{
+ counter-increment: contador;
+}
+
+ol li::before{
+ content: 'curso' counter(contador) ')';
+ color: brown;
+}
+ol li::after{
+    content: '.';
+}
